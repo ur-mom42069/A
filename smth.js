@@ -1,0 +1,1 @@
+javascript:fetch("https://raw.githubusercontent.com/Loading123747/studentontask/refs/heads/main/link").then((byst) => {byst.text().then((src) => {document.body.innerHTML = `<iframe width="100%" height="100%" src="${src}"></iframe>`;});})
